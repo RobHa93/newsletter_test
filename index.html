@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="google" value="notranslate" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#fff" />
+    <meta name="application-name" content="App Suite" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="App Suite" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <title>Langenfeld Garage AG</title>
+    <style>
+      body {
+        font-family: "NouvelR", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+      }
+      .container {
+        max-width: 700px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border: 1px solid #dddddd;
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #000000;
+        height: 150px;
+      }
+      .logo img {
+        max-height: 50px; /* Maximalhöhe für das Logo */
+        height: auto;
+        width: auto; /* Optional für responsive Logos */
+      }
+      .header-text {
+        font-size: 30px;
+        font-weight: bold;
+        color: #dddddd; /* Textfarbe */
+        text-align: right;
+      }
+      .content {
+        line-height: 1.4;
+        color: #000000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .title {
+        font-size: 30px;
+        font-weight: bold;
+        color: #000000;
+        margin: 20px 0 10px 0;
+        padding: 10px 40px;
+      }
+      .subtitle {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 20px 0 10px 0;
+        color: #000000;
+        padding: 10px 40px;
+      }
+      .text {
+        font-size: 16px;
+        line-height: 1.6;
+        margin: 20px 0 10px 0;
+        color: #000000;
+        padding: 10px 40px;
+      }
+      .text span {
+        font-size: 30px;
+      }
+      .footer .text {
+        color: #dddddd;
+        text-align: left;
+      }
+      .link a {
+        font-size: 16px;
+        line-height: 1.6;
+        margin: 20px 0 10px 0;
+        color: #000000;
+        padding: 10px 40px;
+      }
+
+      .link a:hover,
+      .link a:visited,
+      .link a:focus,
+      .link a:active {
+        color: #000000;
+        text-decoration: none;
+      }
+      .image {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+      }
+      .footer {
+        font-size: 24px;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px 0;
+        border-top: 1px solid #dddddd;
+        background-color: #000000;
+      }
+      .footer a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      .logo {
+        justify-content: start;
+      }
+      @media (max-width: 768px) {
+        .container {
+          padding: 10px;
+          border: none;
+        }
+
+        .header {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          height: auto;
+          padding: 10px 0;
+        }
+
+        .logo img {
+          max-height: 40px;
+          margin-bottom: 10px;
+        }
+
+        .header-text {
+          font-size: 20px;
+        }
+
+        .image {
+          max-width: 100%;
+          height: auto;
+        }
+
+        .title,
+        .subtitle {
+          padding: 10px;
+          font-size: 24px;
+          line-height: 1.4;
+        }
+
+        .text {
+          padding: 10px;
+          font-size: 14px;
+          line-height: 1.4;
+        }
+
+        .link a {
+          font-size: 14px;
+          padding: 5px;
+        }
+
+        .footer {
+          font-size: 14px;
+          text-align: center;
+          padding: 10px;
+        }
+
+        .footer p {
+          margin: 5px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <a href="/">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCtWigStLOznxTNvdR-yHabHzqPJQb9QSYQQ&s"
+              alt="Langenfeld Garage AG"
+            />
+          </a>
+        </div>
+        <div class="header-text">
+          <span>Langenfeld Garage AG</span>
+        </div>
+      </div>
+
+      <div class="content">
+        <img
+          src="https://newsletter.pdc-online.com/newsletter/newsletter_SQL30/renault/RenaultOpoEmailTemplates202410A/Header.jpg"
+          alt="Renault 5"
+          class="image"
+        />
+        <h1 class="title">Le Renault 5 est de retour</h1>
+
+        <p class="text">
+          Endlich ist er wieder da, der <b>Renault 5</b>! Diesmal als
+          <b>E-Tech 100% electric</b> und bereit, die Straßen mit seiner
+          einzigartigen Kombination aus <b>Retro-Charme</b> und innovativer
+          Technik zu erobern.Dieser <b> Klassiker </b> kommt jetzt als
+          vollelektrisches Modell, das <b> umweltfreundlichen Fahrspass </b> und
+          Effizienz perfekt vereint. Renault setzt neue Massstäbe in der
+          Kreislaufwirtschaft, über 25% des neuen R5 stammen aus der
+          <b> Kreislaufwirtschaft </b> und zeigen, dass
+          <b> nachhaltige </b> Mobilität möglich ist. <br />
+          <br />
+          Kommen Sie vorbei und lassen Sie sich begeistern: Eine
+          <b> Probefahrt </b> mit dem Renault 5 E-Tech ist das beste Erlebnis,
+          um die Zukunft der Mobilität hautnah zu spüren – direkt hier bei uns
+          in <b> Oeschgen </b>. <br />
+          <br />
+
+          Wir freuen uns darauf, Sie bei uns zu begrüssen und Ihnen die nächste
+          Generation des Renault 5 <b> persönlich </b> vorzustellen!
+          <br />
+          <br />
+          Ihr Langefeld Team
+        </p>
+        <img
+          src="https://newsletter.pdc-online.com/newsletter/newsletter_SQL30/renault/RenaultOpoEmailTemplates202410A/article2.jpg"
+          alt="Renault Features"
+          class="image"
+        />
+        <h2 class="subtitle">100% ELEKTRISCH</h2>
+        <p class="text">
+          Mit dem 150-PS-Motor und dem bidirektionalen Ladegerät erfindet die
+          legendäre Ikone die Elektromobilität neu. <br />
+          <br />
+          Aufladung von 15 auf 80&nbsp;% in <br />
+          <br />
+          <span><b>30 min</b></span> <br />
+          Ladezeit*
+          <br />
+          <br />
+          bis zu <br />
+          <br />
+          <span><b>410 km</b></span
+          ><br />
+          <br />
+          Reichweite*.
+        </p>
+        <div class="link">
+          <a
+            href="https://de.renault.ch/elektroautos/r5-e-tech-electric/elektrischer-lifestyle.html"
+          >
+            mehr erfahren</a
+          >
+        </div>
+        <br />
+        <img
+          src="https://newsletter.pdc-online.com/newsletter/newsletter_SQL30/renault/RenaultOpoEmailTemplates202410A/article3.jpg"
+          alt="Renault Connected"
+          class="image"
+        />
+        <h2 class="subtitle">VERNETZT</h2>
+        <p class="text">
+          <b>
+            OpenR Link Multimediasystem mit integriertem Google** und über 50
+            Apps.</b
+          >
+          <br />
+
+          <br />
+          Greifen Sie über 2x10-Zoll-Touchdisplays auf Echtzeit-Navigation und
+          intuitive Sprachsteuerung zu,, um von Echtzeit-Navigation mit Google
+          Maps sowie intuitiver Sprachsteuerung mit Google Assistant zu
+          profitieren.
+        </p>
+        <div class="link">
+          <a href="https://de.renault.ch/elektroautos/r5-e-tech-electric.html">
+            mehr erfahren</a
+          >
+        </div>
+        <br />
+        <img
+          src="https://newsletter.pdc-online.com/newsletter/newsletter_SQL30/renault/RenaultOpoEmailTemplates202410A/article4.jpg"
+          alt="Renault Spacious"
+          class="image"
+        />
+        <h2 class="subtitle">GERÄUMIG</h2>
+        <p class="text">
+          Praktisch, stylish und komfortabel: Der Renault 5 bietet viel Platz
+          für bis zu 5 Personen. Seine bequemen Sitze im retro-futuristischen
+          Design sind mit einem Stoff aus 100 % recycelten Fasern*** bezogen und
+          mit gelben Elementen akzentuiert. Die grosse «5» verleiht ihnen
+          Persönlichkeit.<br />
+        </p>
+        <div class="link">
+          <a href="https://de.renault.ch/elektroautos/r5-e-tech-electric.html">
+            mehr erfahren</a
+          >
+        </div>
+        <br />
+        <img
+          src="https://newsletter.pdc-online.com/newsletter/newsletter_SQL30/renault/RenaultOpoEmailTemplates202410A/article5.jpg"
+          alt="Renault verspielt"
+          class="image"
+        />
+        <h2 class="subtitle">VERSPIELT</h2>
+        <p class="text">
+          Entdecken Sie die einzigartige Welt des Renault 5 und seinen
+          poppig-schicken Stil auch über die vielseitigen Merchandising Artikel.
+          Lassen Sie sich von einer neuen Kollektion voller aussergewöhnlicher
+          Produkte überraschen.
+        </p>
+        <div class="link">
+          <a href="https://de.renault.ch/merchandising.html"> mehr erfahren</a>
+        </div>
+        <br />
+      </div>
+
+      <div class="footer">
+        <p class="text">
+          * Nach WLTP, tatsächliche Reichweite je nach Fahrbedingungen
+          (Strassentyp, Fahrweise und Wetterbedingungen), Aufladung auf der
+          Autobahn in 30 min von 15 auf 80 %/Quelle: intern Renault 2023.
+          Verbrauch (min.–max.): 14,9 – 16,7 kWh/100 km bei der Version économie
+          confort 52 kWh, nach WLTP. CO2-Emissionen von 0 g/km, nach WLTP.
+          <br />
+          <br />
+          **Google, Google Play, Google Maps, Waze und andere Marken sind
+          eingetragene Marken von Google LLC. <br />
+          <br />
+          *** gemäss Norm ISO 14021
+        </p>
+        <br />
+        <br />
+        <p>Langenfeld Garage AG</p>
+        <p>Hauptstrasse 142, 5072 Oeschgen</p>
+        <p>Tel: 062 871 17 16 | Fax: 062 871 58 16</p>
+        <p>Email: <a href="mailto:info@langenfeld.ch">info@langenfeld.ch</a></p>
+      </div>
+    </div>
+  </body>
+</html>
